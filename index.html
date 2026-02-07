@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Takunda Manhongo | Aspiring Data Scientist</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Takunda Manhongo - Aspiring Data Scientist specializing in Python, Machine Learning, and Data Analysis. University of Zimbabwe student.">
+    <meta name="keywords" content="Data Science, Python, Machine Learning, Zimbabwe, University of Zimbabwe, Takunda Manhongo, Data Analyst">
+    <meta name="author" content="Takunda Manhongo">
+</head>
+<body>
+    <!-- Theme Toggle -->
+    <div class="theme-toggle">
+        <button id="themeToggle">
+            <i class="fas fa-moon"></i>
+            <i class="fas fa-sun"></i>
+        </button>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#home" class="logo">Takunda<span>.</span></a>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+                <li><a href="#skills"><i class="fas fa-code"></i> Skills</a></li>
+                <li><a href="#education"><i class="fas fa-graduation-cap"></i> Education</a></li>
+                <li><a href="#projects"><i class="fas fa-project-diagram"></i> Projects</a></li>
+                <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+            <button class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="floating-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+            <div class="shape shape-4"></div>
+        </div>
+        
+        <div class="container hero-container">
+            <div class="hero-text" data-aos="fade-right" data-aos-duration="1000">
+                <div class="hero-badge animate__animated animate__pulse animate__infinite">
+                    <span>Aspiring Data Scientist</span>
+                </div>
+                <h1 class="hero-title">
+                    Transforming <span class="typed-text"></span><span class="cursor">&nbsp;</span>
+                </h1>
+                <h2 class="hero-subtitle">Takunda Manhongo</h2>
+                <p class="hero-description">
+                    Second-year Data Science student at University of Zimbabwe, passionate about transforming data into actionable intelligence and building AI-driven solutions that create impact.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary btn-glow">
+                        <i class="fas fa-rocket"></i> Explore Projects
+                    </a>
+                    <a href="#contact" class="btn btn-secondary btn-glow">
+                        <i class="fas fa-comment-dots"></i> Let's Connect
+                    </a>
+                </div>
+                <div class="hero-social">
+                    <a href="https://github.com/takundamanhongo" target="_blank" class="social-icon" title="GitHub">
+                        <i class="fab fa-github"></i>
+                        <span class="tooltip">GitHub</span>
+                    </a>
+                    <a href="https://linkedin.com/in/takunda-manhongo" target="_blank" class="social-icon" title="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                        <span class="tooltip">LinkedIn</span>
+                    </a>
+                    <a href="https://wa.me/263716389960" target="_blank" class="social-icon" title="WhatsApp">
+                        <i class="fab fa-whatsapp"></i>
+                        <span class="tooltip">WhatsApp</span>
+                    </a>
+                    <a href="mailto:takundamanhongo16@gmail.com" class="social-icon" title="Email">
+                        <i class="fas fa-envelope"></i>
+                        <span class="tooltip">Email</span>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="hero-image" data-aos="fade-left" data-aos-duration="1000">
+                <div class="profile-card">
+                    <div class="profile-image-container">
+                        <img src="assets/profile.jpg" alt="Takunda Manhongo" class="profile-photo" id="profilePhoto">
+                        <div class="profile-ring"></div>
+                        <div class="profile-status">
+                            <span class="status-dot"></span>
+                            <span>Available for Opportunities</span>
+                        </div>
+                    </div>
+                    <div class="profile-info">
+                        <h3>Takunda Manhongo</h3>
+                        <p><i class="fas fa-map-marker-alt"></i> Harare, Zimbabwe</p>
+                        <div class="profile-stats">
+                            <div class="stat">
+                                <h4>2nd</h4>
+                                <p>Year</p>
+                            </div>
+                            <div class="stat">
+                                <h4>5+</h4>
+                                <p>Projects</p>
+                            </div>
+                            <div class="stat">
+                                <h4>100%</h4>
+                                <p>Dedicated</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <a href="#about" class="scroll-down">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+                <span>Scroll Down</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">Get to Know Me</span>
+                <h2 class="section-title">About <span>Me</span></h2>
+                <p class="section-description">Discover my journey, passion, and what drives me in data science</p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-right">
+                    <h3>Hello, I'm <span class="highlight-text">Takunda</span></h3>
+                    <h4>Aspiring Data Scientist & Tech Enthusiast</h4>
+                    <p>
+                        I am a passionate second-year <strong>Data Science and Systems</strong> student at the University of Zimbabwe. 
+                        My journey into data science began with a fascination for how data can tell stories and drive decisions.
+                    </p>
+                    <p>
+                        Currently, I'm developing expertise in <strong>machine learning, statistical analysis, and data visualization</strong>. 
+                        I believe in using data to solve real-world problems, particularly in the African context where data-driven 
+                        solutions can create significant impact.
+                    </p>
+                    
+                    <div class="passion-points">
+                        <div class="passion-item">
+                            <i class="fas fa-brain"></i>
+                            <div>
+                                <h5>AI & ML</h5>
+                                <p>Building intelligent solutions</p>
+                            </div>
+                        </div>
+                        <div class="passion-item">
+                            <i class="fas fa-chart-line"></i>
+                            <div>
+                                <h5>Data Analytics</h5>
+                                <p>Extracting meaningful insights</p>
+                            </div>
+                        </div>
+                        <div class="passion-item">
+                            <i class="fas fa-lightbulb"></i>
+                            <div>
+                                <h5>Innovation</h5>
+                                <p>Creating impactful solutions</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-info" data-aos="fade-left">
+                    <div class="info-card">
+                        <h4><i class="fas fa-info-circle"></i> Personal Information</h4>
+                        <div class="info-grid">
+                            <div class="info-item">
+                                <i class="fas fa-user"></i>
+                                <div>
+                                    <strong>Full Name</strong>
+                                    <p>Takunda Manhongo</p>
+                                </div>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-envelope"></i>
+                                <div>
+                                    <strong>Email</strong>
+                                    <p>takundamanhongo16@gmail.com</p>
+                                </div>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-phone"></i>
+                                <div>
+                                    <strong>Phone</strong>
+                                    <p>+263 716 389 960</p>
+                                </div>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-university"></i>
+                                <div>
+                                    <strong>University</strong>
+                                    <p>University of Zimbabwe</p>
+                                </div>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div>
+                                    <strong>Location</strong>
+                                    <p>Harare, Zimbabwe</p>
+                                </div>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-briefcase"></i>
+                                <div>
+                                    <strong>Status</strong>
+                                    <p>Seeking Internships</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <a href="#contact" class="btn btn-primary btn-block">
+                        <i class="fas fa-paper-plane"></i> Get In Touch
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section bg-light">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">My Technical Expertise</span>
+                <h2 class="section-title">My <span>Skills</span></h2>
+                <p class="section-description">Here's what I bring to the table</p>
+            </div>
+            
+            <div class="skills-container">
+                <!-- Programming & ML -->
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
+                    <div class="category-header">
+                        <i class="fas fa-laptop-code"></i>
+                        <h3>Programming & Machine Learning</h3>
+                    </div>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Python</span>
+                                <span class="skill-percent">79%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-level" data-level="79"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Pandas & NumPy</span>
+                                <span class="skill-percent">78%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-level" data-level="78"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Scikit-Learn</span>
+                                <span class="skill-percent">75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-level" data-level="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">SQL</span>
+                                <span class="skill-percent">55%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-level" data-level="55"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Visualization -->
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
+                    <div class="category-header">
+                        <i class="fas fa-chart-bar"></i>
+                        <h3>Data Visualization</h3>
+                    </div>
+                    <div class="skills-tags">
+                        <span class="skill-tag glow">
+                            <i class="fab fa-microsoft"></i> Power BI
+                        </span>
+                        <span class="skill-tag glow">
+                            <i class="fas fa-file-excel"></i> Excel
+                        </span>
+                        <span class="skill-tag glow">
+                            <i class="fas fa-chart-line"></i> Tableau
+                        </span>
+                        <span class="skill-tag glow">
+                            <i class="fas fa-chart-area"></i> Matplotlib
+                        </span>
+                        <span class="skill-tag glow">
+                            <i class="fas fa-chart-pie"></i> Seaborn
+                        </span>
+                    </div>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Power BI</span>
+                                <span class="skill-percent">82%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-level" data-level="82"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Tableau</span>
+                                <span class="skill-percent">77%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-level" data-level="77"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tools & Technologies -->
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="300">
+                    <div class="category-header">
+                        <i class="fas fa-tools"></i>
+                        <h3>Tools & Technologies</h3>
+                    </div>
+                    <div class="skills-tags">
+                        <span class="skill-tag glow">
+                            <i class="fab fa-git-alt"></i> Git
+                        </span>
+                        <span class="skill-tag glow">
+                            <i class="fab fa-html5"></i> HTML5
+                        </span>
+                        <span class="skill-tag glow">
+                            <i class="fab fa-css3-alt"></i> CSS3
+                        </span>
+                        <span class="skill-tag glow">
+                            <i class="fas fa-cube"></i> Jupyter
+                        </span>
+                    </div>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Git & GitHub</span>
+                                <span class="skill-percent">65%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-level" data-level="65"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">VS Code</span>
+                                <span class="skill-percent">80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-level" data-level="80"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">My Academic Journey</span>
+                <h2 class="section-title">Education & <span>Background</span></h2>
+                <p class="section-description">From high school to university studies</p>
+            </div>
+            
+            <div class="timeline">
+                <!-- University Education -->
+                <div class="timeline-item" data-aos="fade-right">
+                    <div class="timeline-date">2024 - Present</div>
+                    <div class="timeline-content">
+                        <div class="timeline-icon">
+                            <i class="fas fa-university"></i>
+                        </div>
+                        <h3>University of Zimbabwe</h3>
+                        <h4>BSc Honours in Data Science and Systems</h4>
+                        <p class="timeline-period"><i class="far fa-calendar"></i> Currently in 2nd Year</p>
+                        <p>
+                            Pursuing a comprehensive program in data science, focusing on machine learning, 
+                            statistical analysis, database management, and business intelligence.
+                        </p>
+                        <div class="timeline-details">
+                            <h5>Key Coursework:</h5>
+                            <ul>
+                                <li>Introduction to Data Science</li>
+                                <li>Programming for Data Science (Python)</li>
+                                <li>Statistics & Probability Theory</li>
+                                <li>Database Management Systems</li>
+                                <li>Machine Learning Fundamentals</li>
+                                <li>Business Intelligence & Analytics</li>
+                                <li>Data Visualization Techniques</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- High School -->
+                <div class="timeline-item" data-aos="fade-left">
+                    <div class="timeline-date">2020 - 2022</div>
+                    <div class="timeline-content">
+                        <div class="timeline-icon">
+                            <i class="fas fa-school"></i>
+                        </div>
+                        <h3>Rutendo High School</h3>
+                        <h4>Advanced Level (A-Level)</h4>
+                        <p class="timeline-period"><i class="far fa-calendar"></i> Completed</p>
+                        <p>
+                            Completed Advanced Level education with a focus on technical and scientific subjects 
+                            that laid the foundation for my data science journey.
+                        </p>
+                        <div class="timeline-details">
+                            <h5>A-Level Subjects:</h5>
+                            <div class="subject-grid">
+                                <div class="subject">
+                                    <i class="fas fa-calculator"></i>
+                                    <span>Mathematics</span>
+                                </div>
+                                <div class="subject">
+                                    <i class="fas fa-laptop"></i>
+                                    <span>Computer Science</span>
+                                </div>
+                                <div class="subject">
+                                    <i class="fas fa-globe-africa"></i>
+                                    <span>Geography</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="education-quote" data-aos="fade-up">
+                <i class="fas fa-quote-left quote-icon"></i>
+                <p>"Education is not preparation for life; education is life itself. Every dataset tells a story, and I'm learning to be the storyteller."</p>
+                <i class="fas fa-quote-right quote-icon"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section bg-light">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">My Work Showcase</span>
+                <h2 class="section-title">Featured <span>Projects</span></h2>
+                <p class="section-description">Practical applications of my data science skills</p>
+            </div>
+            
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-image" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                        <i class="fas fa-shopping-cart"></i>
+                        <div class="project-overlay">
+                            <h4>Retail Analytics</h4>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-category">Data Analysis</span>
+                        <h3>Retail Sales Analysis System</h3>
+                        <p>
+                            Comprehensive analysis of retail sales data to identify purchasing patterns, 
+                            seasonal trends, and customer behavior insights for business optimization.
+                        </p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>Pandas</span>
+                            <span>Matplotlib</span>
+                            <span>Excel</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/takundamanhongo/retail-analysis" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                            <a href="#" class="project-link demo-link">
+                                <i class="fas fa-external-link-alt"></i> Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-image" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
+                        <i class="fas fa-graduation-cap"></i>
+                        <div class="project-overlay">
+                            <h4>Education Analytics</h4>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-category">Machine Learning</span>
+                        <h3>Student Performance Predictor</h3>
+                        <p>
+                            Machine learning model to predict student academic performance based on 
+                            various factors, helping educators identify at-risk students early.
+                        </p>
+                        <div class="project-tags">
+                            <span>Scikit-learn</span>
+                            <span>NumPy</span>
+                            <span>Seaborn</span>
+                            <span>Flask</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/takundamanhongo/student-performance" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                            <a href="#" class="project-link demo-link">
+                                <i class="fas fa-external-link-alt"></i> Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-image" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+                        <i class="fas fa-chart-line"></i>
+                        <div class="project-overlay">
+                            <h4>Business Intelligence</h4>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-category">Data Visualization</span>
+                        <h3>Interactive Business Dashboard</h3>
+                        <p>
+                            Real-time business intelligence dashboard with interactive visualizations 
+                            and KPI tracking for data-driven decision making.
+                        </p>
+                        <div class="project-tags">
+                            <span>Power BI</span>
+                            <span>DAX</span>
+                            <span>SQL</span>
+                            <span>Excel</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/takundamanhongo/business-dashboard" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                            <a href="#" class="project-link demo-link">
+                                <i class="fas fa-external-link-alt"></i> Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center" data-aos="fade-up" data-aos-delay="400">
+                <a href="https://github.com/takundamanhongo" target="_blank" class="btn btn-outline btn-glow">
+                    <i class="fab fa-github"></i> View All Projects
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">Let's Work Together</span>
+                <h2 class="section-title">Get In <span>Touch</span></h2>
+                <p class="section-description">I'm open to collaborations, internships, and interesting projects</p>
+            </div>
+            
+            <div class="contact-container">
+                <div class="contact-info" data-aos="fade-right">
+                    <h3>Connect With Me</h3>
+                    <p>
+                        Feel free to reach out for collaborations, internship opportunities, 
+                        or just to say hello. I'm always excited to connect with fellow data enthusiasts!
+                    </p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Email</h4>
+                                <a href="mailto:takundamanhongo16@gmail.com">takundamanhongo16@gmail.com</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fab fa-whatsapp"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>WhatsApp</h4>
+                                <a href="https://wa.me/263716389960" target="_blank">+263 716 389 960</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-university"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>University</h4>
+                                <p>University of Zimbabwe</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Location</h4>
+                                <p>Harare, Zimbabwe</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-social">
+                        <h4>Follow Me</h4>
+                        <div class="social-links">
+                            <a href="https://github.com/takundamanhongo" target="_blank" class="social-link">
+                                <i class="fab fa-github"></i>
+                                <span>GitHub</span>
+                            </a>
+                            <a href="https://linkedin.com/in/takunda-manhongo" target="_blank" class="social-link">
+                                <i class="fab fa-linkedin"></i>
+                                <span>LinkedIn</span>
+                            </a>
+                            <a href="https://wa.me/263716389960" target="_blank" class="social-link">
+                                <i class="fab fa-whatsapp"></i>
+                                <span>WhatsApp</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form" data-aos="fade-left">
+                    <form id="contactForm">
+                        <div class="form-header">
+                            <h3><i class="fas fa-paper-plane"></i> Send Message</h3>
+                            <p>I'll get back to you as soon as possible</p>
+                        </div>
+                        
+                        <div class="form-group">
+                            <div class="input-group">
+                                <i class="fas fa-user"></i>
+                                <input type="text" id="name" placeholder="Your Name" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <div class="input-group">
+                                <i class="fas fa-envelope"></i>
+                                <input type="email" id="email" placeholder="Your Email" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <div class="input-group">
+                                <i class="fas fa-tag"></i>
+                                <input type="text" id="subject" placeholder="Subject" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <div class="input-group">
+                                <i class="fas fa-comment"></i>
+                                <textarea id="message" rows="5" placeholder="Your Message..." required></textarea>
+                            </div>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-block btn-glow">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                        
+                        <div class="form-footer">
+                            <p><i class="fas fa-clock"></i> Response time: Within 24 hours</p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo" data-aos="fade-up">
+                    <a href="#home" class="footer-logo-text">Takunda<span>.</span></a>
+                    <p>Transforming data into meaningful insights and impactful solutions.</p>
+                    <div class="footer-tagline">
+                        <p><i class="fas fa-graduation-cap"></i> Data Science Student | University of Zimbabwe</p>
+                    </div>
+                </div>
+                
+                <div class="footer-links" data-aos="fade-up" data-aos-delay="100">
+                    <h4>Quick Links</h4>
+                    <a href="#home"><i class="fas fa-chevron-right"></i> Home</a>
+                    <a href="#about"><i class="fas fa-chevron-right"></i> About</a>
+                    <a href="#skills"><i class="fas fa-chevron-right"></i> Skills</a>
+                    <a href="#projects"><i class="fas fa-chevron-right"></i> Projects</a>
+                </div>
+                
+                <div class="footer-links" data-aos="fade-up" data-aos-delay="200">
+                    <h4>Resources</h4>
+                    <a href="https://github.com/takundamanhongo" target="_blank"><i class="fas fa-chevron-right"></i> GitHub</a>
+                    <a href="#contact"><i class="fas fa-chevron-right"></i> Contact</a>
+                    <a href="#" class="cv-download"><i class="fas fa-chevron-right"></i> Download CV</a>
+                </div>
+                
+                <div class="footer-cta" data-aos="fade-up" data-aos-delay="300">
+                    <h4>Let's Connect</h4>
+                    <p>Interested in collaborating or have opportunities?</p>
+                    <a href="#contact" class="btn btn-outline-light">
+                        <i class="fas fa-handshake"></i> Get In Touch
+                    </a>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="copyright">
+                    <p>&copy; 2024 Takunda Manhongo. All rights reserved.</p>
+                    <p class="university">BSc Data Science & Systems | University of Zimbabwe</p>
+                </div>
+                
+                <div class="footer-social">
+                    <a href="https://github.com/takundamanhongo" target="_blank" class="social-icon">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/takunda-manhongo" target="_blank" class="social-icon">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://wa.me/263716389960" target="_blank" class="social-icon">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                    <a href="mailto:takundamanhongo16@gmail.com" class="social-icon">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <a href="#home" class="back-to-top" id="backToTop">
+        <i class="fas fa-chevron-up"></i>
+    </a>
+
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loader">
+            <div class="loader-circle"></div>
+            <div class="loader-text">Loading Portfolio...</div>
+        </div>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    
+    <!-- Main JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
